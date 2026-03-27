@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: otel-dummy
+
+management:
+  otlp:
+    metrics:
+      export:
+        url: http://localhost:4317
