@@ -2,8 +2,17 @@ spring:
   application:
     name: otel-dummy
 
-management:
-  otlp:
-    metrics:
-      export:
-        url: http://localhost:4317
+otel:
+  service:
+    name: my-spring-service
+
+  exporter:
+    otlp:
+      endpoint: http://127.0.0.1:4318
+
+  traces:
+    exporter: otlp
+  metrics:
+    exporter: otlp
+  logs:
+    exporter: otlp

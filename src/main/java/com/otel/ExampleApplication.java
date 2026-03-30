@@ -1,4 +1,4 @@
-package com.otel.example;
+package com.otel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

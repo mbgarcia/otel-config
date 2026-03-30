@@ -1,4 +1,4 @@
-package com.otel.example.config;
+package com.otel.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

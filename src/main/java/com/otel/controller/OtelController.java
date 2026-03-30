@@ -1,4 +1,4 @@
-package com.otel.example.controller;
+package com.otel.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
